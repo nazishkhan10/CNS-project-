@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit config / cache
+.streamlit/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sensitive key files (never commit real private keys)
+*.pem
+*.key
+*.cvlt
+
+# OS / Office generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
